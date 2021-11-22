@@ -1,0 +1,44 @@
+.MainContainer {
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 #091e4240;
+    padding: 6px 8px 2px;    
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+.MainContainer:hover {
+    background-color: #F4F5F7;
+}
+
+.MainContainer:last-of-type {
+    margin-bottom: 0;
+}
+
+.TaskLabelWrapper {
+    background-color: #eb5a46;
+    width: 40px;
+    height: 8px;
+    margin: 0 4px 4px 0;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 4px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.TaskLabelWrapper:hover {
+    background-color: #B04632;
+}
+
+.Message {
+    color: #172b4d;
+    margin: 0 0 4px;
+    overflow: hidden;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #172b4d;
+}

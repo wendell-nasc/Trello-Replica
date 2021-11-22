@@ -1,0 +1,82 @@
+.ButtonWrapper {
+    width: 32px;
+    height: 32px;
+
+    background-color: transparent;
+    border: 0;
+    border-radius: 3px;
+
+    outline: 0;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.ButtonWrapper:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.DarkButton {
+    width: max-content;
+    color: white;
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0.24);
+    padding: 0 12px;
+    margin-left: 12px;
+}
+
+.DarkButton:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.White {
+    background-color: white;
+}
+
+.Transparent {
+    background-color: transparent;
+    margin-top: 8px;
+}
+
+.Secondary {
+    width: max-content;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 0 12px;
+}
+
+.Secondary:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.Icon {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 2px;
+    padding-right: 8px;
+}
+
+.Secondary .Icon {
+    top: 0px;
+    width: 16px;
+    height: 16px;
+    top: 1px;
+}
+
+.Label {
+    font-size: 14px;
+}
+
+.Primary {
+    width: max-content;
+    color: white;
+    background-color: #0079bf;
+    padding: 0 12px;
+}
+
+.Primary:hover {
+    background-color: #026aa7;
+}

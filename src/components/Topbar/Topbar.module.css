@@ -1,0 +1,125 @@
+.MainContainer {
+    background-color: rgb(0,66,105);
+    height: 44px;
+    padding: 6px 4px;
+    box-sizing: border-box;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.LeftMenu {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.Logo {
+    background-image: url('../../assets/header-logo-normal.gif');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0px 9px;
+    width: 75px;
+    height: 15px;
+    padding: 8px 0;
+
+    cursor: pointer;
+    margin: 0;
+}
+
+.Logo:hover {
+    background-image: url('../../assets/header-logo-animated.gif');    
+}
+
+.MenuItem {
+    padding: 0 12px;
+    border-radius: 3px;
+    color: white;
+    height: 32px;
+    font-size: 14px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+}
+
+.MenuItem:first-of-type {
+    padding: 0 8px;
+}
+
+.MenuItem:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.ArrowDown {
+    width: 10px;
+    margin-left: 6px;
+}
+
+.RightMenu {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.SearchWrapper {
+    position: relative;
+    margin-right: 8px;
+}
+
+.SearchInput {
+    width: 250px;
+    height: 32px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: rgba(255, 255, 255, 0.5);
+
+    padding-left: 30px;
+    outline: none;
+}
+
+.SearchInput:focus {
+    background-color: white;
+}
+
+.SearchInput::placeholder {
+    color: white;
+}
+
+.SearchInput:focus::placeholder {
+    color: black;
+}
+
+.SearchWrapper > span {
+    position: absolute;
+    left: 5px;
+    top: 7px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.SearchInput:focus ~span {
+    color: black;
+}
+
+.DefaultAvatar {
+    color: #172B4D;
+    background-color: #DFE1E6;
+    height: 32px;
+    width: 32px;
+    line-height: 32px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: bold;
+    margin-left: 4px;
+}
