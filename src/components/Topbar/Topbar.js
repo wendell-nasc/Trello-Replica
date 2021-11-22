@@ -37,7 +37,7 @@ const Topbar = () => {
             <div className={classes.RightMenu}>
                 <div className={classes.SearchWrapper}>
                     <input className={classes.SearchInput} type="search" placeholder="Search" />
-                    <span class="material-icons">&#xe8b6;</span>
+                    <span className="material-icons">&#xe8b6;</span>
                 </div>
                 <Button icon={GET_IMAGES(ICON.INFO_WHITE)} iconLabel={"info icon white"} />
                 <Button icon={GET_IMAGES(ICON.NOTIFICATION_WHITE)} iconLabel={"notification icon white"} />

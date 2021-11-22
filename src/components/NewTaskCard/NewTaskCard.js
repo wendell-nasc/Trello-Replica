@@ -30,7 +30,7 @@ const NewTaskCard = (props) => {
             {
                 !state.showNewForm ? 
                 <div className={classes.AddMoreWrapper} onClick={onCreateNewClick}>
-                    <span class="material-icons">&#xe145;</span>
+                    <span className="material-icons">&#xe145;</span>
                     Add a card
                 </div>
                 :
@@ -39,7 +39,7 @@ const NewTaskCard = (props) => {
                         <input className={classes.InputBox} type="text" required placeholder="Enter a title for this card..." name="cardTitle" autoFocus />
                         <div className={classes.ButtonWrapper}>
                             <Button classList={BUTTON_TYPE.PRIMARY} label="Add card" />                
-                            <span class="material-icons" onClick={onHideForm}>&#xe5cd;</span>
+                            <span className="material-icons" onClick={onHideForm}>&#xe5cd;</span>
                         </div>
                     </form>
                 </div>

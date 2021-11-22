@@ -1,6 +1,7 @@
 .MainContainer {
     min-width: 272px;
     width: 272px;
+    height: auto;
     max-height: calc(100vh - 180px);
     overflow-y: auto;
     background-color: #ebecf0;
@@ -39,4 +40,12 @@
     font-weight: 600;
     line-height: 20px;
     padding: 4px 8px 10px;
+}
+
+.TaskCardWrapper {
+    margin: 8px 0;
+}
+
+.TaskListWrapper {
+    min-height: 2px;
 }

@@ -31,7 +31,7 @@ const NewListCard = (props) => {
             {
                 !state.showNewForm ? 
                 <div className={classes.AddMoreWrapper} onClick={onCreateNewClick}>
-                    <span class="material-icons">&#xe145;</span>
+                    <span className="material-icons">&#xe145;</span>
                     Add another list
                 </div>
                 :
@@ -40,7 +40,7 @@ const NewListCard = (props) => {
                         <input className={classes.InputBox} type="text" required placeholder="Enter list title..." name="listTitle" autoFocus />
                         <div className={classes.ButtonWrapper}>
                             <Button classList={BUTTON_TYPE.PRIMARY} label="Add list" />                
-                            <span class="material-icons" onClick={onHideForm}>&#xe5cd;</span>
+                            <span className="material-icons" onClick={onHideForm}>&#xe5cd;</span>
                         </div>
                     </form>
                 </div>
